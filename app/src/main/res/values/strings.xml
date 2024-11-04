@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KeysManager</string>
+    <string name="zhanshiye">展示页</string>
+    <string name="textview">TextView</string>
+    <string name="string_textview" />
+    <string name="confirm">确认</string>
+    <string name="inputPwd_activity_show">显示</string>
+    <string name="inputPwd_activity_hide">隐藏</string>
+    <string name="mainPwd_hint">输入主密码，所有加密解密将以此为基础</string>
+    <string name="mainPwd_input_hint">&#160;&#160;请输入主密码</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

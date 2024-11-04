@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_key"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="添加钥匙"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bug_test"
+        android:icon="@android:drawable/ic_delete"
+        android:title="bug 测试按钮"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/add_keys"
+        android:title="新建钥匙串" />
+    <item
+        android:id="@+id/del_keys"
+        android:title="删除当前钥匙串" />
+    <item
+        android:id="@+id/input_Pwd"
+        android:title="输入主密码" />
+    <item
+        android:id="@+id/modify_Pwd"
+        android:title="修改主密码" />
+    <item
+        android:id="@+id/backup"
+        android:title="备份" />
+    <item
+        android:id="@+id/restore"
+        android:title="还原" />
+    <item
+        android:id="@+id/moreinfo"
+        android:title="更多信息" />
+    <!--查询钥匙串和查询钥匙放在一起
+    <item
+        android:id="@+id/search_class"
+        android:title="查询钥匙串" />
+    -->
+</menu>
